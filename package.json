@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "name": "defaultapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rTanure/DefaultAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rTanure/DefaultAPI/issues"
+  },
+  "homepage": "https://github.com/rTanure/DefaultAPI#readme",
+  "description": ""
 }
