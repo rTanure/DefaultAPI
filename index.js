@@ -7,7 +7,7 @@ const content = {
     "message": "API connected!"
 }
 
-app.route('/').get((req, res)=>{
+app.route('/api').get((req, res)=>{
     res.send(content)
 })
 
